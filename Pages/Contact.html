@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="container">
+        <img src="../warmkinglogo.png" alt="warmking logo"/>
+        <nav class="navbar" id="navbarLinks">
+            <a href="../index.html" class="btn">Start</a>
+            <a href="../Pages/Products.html" class="btn">Produkter</a>
+            <a href="../Pages/Contact.html" class="btn">Kontakt</a>
+            <a href="../Pages/Privacy.html" class="btn">Privacy</a>
+        </nav>
+        <a href="#" class="hamburger" id="hamburgerClick" onclick="toggleHamburger()">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+        </a>
+    </header>
+    <main>
+        <section class="formPage">
+            <h1>Kontakta oss</h1>
+            <form action="https://formshow.systementor.se" method="POST" class="contactForm">
+                <label for="namn">Namn: </label>
+                <input type="text" name="namn" id="namn" class="contactInput">
+
+                <label for="epost">Epost: </label>
+                <input type="text" name="epost" id="epost" class="contactInput">
+
+                <label for="ärende">Ärende: </label>
+                <input type="text" name="ärende" id="ärende" class="contactInput">
+
+                <label for="meddelande">Meddelande: </label>
+                <textarea name="meddelande" id="meddelande" class="messageBox"></textarea>
+
+                <button type="submit" class="readmorebtn">Skicka</button>
+            </form>
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/8bbf1fc66f.js" crossorigin="anonymous"></script>
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/Header.js"></script>
+</body>
+</html>

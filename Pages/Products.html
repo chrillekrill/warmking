@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.11.5/datatables.min.css"/>
+    <title>Contact</title>
+</head>
+<body>
+    <header class="container">
+        <img src="../warmkinglogo.png" alt="warmking logo"/>
+        <nav class="navbar" id="navbarLinks">
+            <a href="../index.html" class="btn">Start</a>
+            <a href="../Pages/Products.html" class="btn">Produkter</a>
+            <a href="../Pages/Contact.html" class="btn">Kontakt</a>
+            <a href="../Pages/Privacy.html" class="btn">Privacy</a>
+        </nav>
+        <a href="#" class="hamburger" id="hamburgerClick" onclick="toggleHamburger()">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+        </a>
+    </header>
+    <main>
+        <section class="productTable">
+        <h1>Värmepumpar</h1>
+        <table id="example" class="display" style="width: 100%">
+            <thead>
+                <tr>
+                    <th>namn</th>
+                    <th>pris</th>
+                    <th>installationspris</th>
+                </tr>
+            </thead>
+        </table>
+    </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/8bbf1fc66f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="../scripts/products.js"></script>
+    <script src="../scripts/Header.js"></script>
+</body>
+</html>
